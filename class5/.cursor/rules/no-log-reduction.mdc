@@ -1,0 +1,16 @@
+---
+description: Class 5 notebook — never reduce log volume
+globs: class5/**/*
+alwaysApply: true
+---
+
+# Class 5 — keep full log volume
+
+Do NOT reduce log volume in the class5 notebook or smol-vllm demos:
+
+- Keep `enable_metrics=True` and `metrics_every_n_steps=1` (every step logs).
+- Keep `show_engine_state()` on every step where it appears today.
+- Do not add "quiet" modes, step skipping, or summary-only output for Parts 1–6.
+- Students should see the engine breathe line-by-line; instructor points at `[preempt]`, `running=`, etc.
+
+Only suppress `gpu_mem=` on FakeModel (`use_real_model=False`) — not step lines.

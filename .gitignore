@@ -13,9 +13,16 @@ class2/secrets/*.env
 !class2/secrets/*.env.example
 class5/.env
 class5/.env.local
+class7/.env
+class7/.env.local
 class5/class5_with_outputs.pdf
 class5/class5_with_outputs.html
 class5/.venv/
+class7/llm-gateway-lab/.env
+class7/llm-gateway-lab/.venv/
+class7/llm-gateway-lab/results.json
+class7/llm-gateway-lab/results.html
+class7/llm-gateway-lab/.pytest_cache/
 class5/.ipynb_checkpoints/
 class5/**/__pycache__/
 class2/.modal_url
